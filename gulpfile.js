@@ -32,6 +32,14 @@ gulp.task('watchers', function() {
   gulp.watch('frontend/tpl/**/*.html', ['templates', 'js']);
 });
 
+gulp.task('run', function() {
+  
+});
+
+
+
+
+
 var browserify = require('gulp-browserify');
 var uglify = require('gulp-uglify');
 
